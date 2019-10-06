@@ -1,0 +1,95 @@
+2019-10-04 16:03:01,513 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-04 16:05:59,699 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-04 16:10:07,079 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 14:59:44,423 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 15:01:20,410 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 15:01:41,398 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 15:40:52,520 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 15:42:13,889 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 15:56:51,082 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 15:56:56,275 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 16:22:08,850 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 16:26:12,162 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 16:27:40,862 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 16:46:22,018 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 16:46:56,284 ERROR: Exception on /user/Something [GET] [in /home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/app/routes.py", line 119, in user
+    page, app.config['POSTS_PER_PAGE'], False)
+NameError: name 'page' is not defined
+2019-10-05 16:48:16,713 ERROR: Exception on /user/Something [GET] [in /home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/app/routes.py", line 119, in user
+NameError: name 'page' is not defined
+2019-10-05 16:48:22,637 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 16:48:31,605 ERROR: Exception on /user/Something [GET] [in /home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/app/routes.py", line 130, in user
+    next_url=next_url, prev_url=prev_url)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/venv/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/oddmin/Projects/FlaskMegaTutorial/app/templates/user.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/oddmin/Projects/FlaskMegaTutorial/app/templates/base.html", line 33, in top-level template code
+    {% block content %}{% endblock %}
+  File "/home/oddmin/Projects/FlaskMegaTutorial/app/templates/user.html", line 26, in block "content"
+    {% for post in posts %}
+TypeError: 'Pagination' object is not iterable
+2019-10-05 16:51:06,235 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-05 16:51:53,786 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:47]
+2019-10-06 13:03:01,787 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:49]
+2019-10-06 13:04:49,946 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:49]
+2019-10-06 14:01:57,703 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:49]
+2019-10-06 14:02:06,884 INFO: Microblog startup [in /home/oddmin/Projects/FlaskMegaTutorial/app/__init__.py:49]
